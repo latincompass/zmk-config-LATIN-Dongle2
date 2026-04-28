@@ -1,0 +1,20 @@
+include:
+  # USB Dongle (Central) - connects to host via USB, receives from keyboard via BLE
+  - board: seeeduino_xiao_ble
+    shield: LATIN_dongle
+    name: LATIN_Dongle
+
+  # Keyboard (Peripheral) - wireless, connects to dongle via BLE
+  - board: seeeduino_xiao_ble
+    shield: LATIN
+    name: LATIN_Split_Peripheral
+
+  # Single keyboard mode (wired) - for testing
+  - board: seeeduino_xiao_ble
+    shield: LATIN
+    name: LATIN_Single
+    cmake-args: -DCONFIG_ZMK_SPLIT=n
+
+  # Factory reset helper
+  - board: seeeduino_xiao_ble
+    shield: settings_reset

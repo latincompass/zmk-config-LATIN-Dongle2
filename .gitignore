@@ -1,0 +1,9 @@
+.west
+build
+build-zmk-config-LATIN
+modules
+zephyr
+zmk
+
+# Ignore reference materials folder
+参考资料/
