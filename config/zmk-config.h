@@ -1,4 +1,4 @@
-/* 核心配置：禁用分体键盘，启用单端蓝牙键盘 */
-#define ZMK_SPLIT 0          // 强制关闭分体模式
-#define ZMK_BLE 1            // 启用蓝牙 HID（接收器+键盘一体）
-#undef ZMK_SPLIT_BLE        // 禁用分体蓝牙配对逻辑
+/* 核心配置：启用接收器+键盘分体模式（类似罗技Lightspeed） */
+#define ZMK_SPLIT 1          // 启用分体模式（接收器+键盘架构）
+#define ZMK_BLE 1            // 启用蓝牙
+#define ZMK_SPLIT_BLE 1      // 启用分体蓝牙自动连接（即插即用）
