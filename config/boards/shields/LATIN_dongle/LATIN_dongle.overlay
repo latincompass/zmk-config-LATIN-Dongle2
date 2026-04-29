@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/zmk/led.h>
 
 / {
 	chosen {
@@ -22,6 +21,6 @@
                     <&xiao_b 14 GPIO_ACTIVE_HIGH>,  // Green
                     <&xiao_b 15 GPIO_ACTIVE_HIGH>;  // Blue
         num-leds = <1>;
-        color-mapping = <LED_COLOR_ID_RED LED_COLOR_ID_GREEN LED_COLOR_ID_BLUE>;
+        color-mapping = <0 1 2>;
     };
 };
