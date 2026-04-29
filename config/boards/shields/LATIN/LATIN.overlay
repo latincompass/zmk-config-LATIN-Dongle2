@@ -5,6 +5,7 @@
  */
 
 #include "LATIN.dtsi"
+#include <dt-bindings/zmk/led.h>
 
 &kscan0 {
     col-gpios
