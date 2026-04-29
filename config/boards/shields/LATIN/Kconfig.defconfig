@@ -5,5 +5,9 @@ if SHIELD_LATIN
 
 config ZMK_KEYBOARD_NAME
     default "Latin-Xiao_ble"
+
+# Enable split mode for LED indicator support
+config ZMK_SPLIT
+    default y
     
 endif
