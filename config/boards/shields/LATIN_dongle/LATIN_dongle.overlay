@@ -17,9 +17,9 @@
     leds {
         compatible = "zmk,led-strip";
         label = "LED_STRIP";
-        led-gpios = <&xiao_b 13 GPIO_ACTIVE_HIGH>,  // Red
-                    <&xiao_b 14 GPIO_ACTIVE_HIGH>,  // Green
-                    <&xiao_b 15 GPIO_ACTIVE_HIGH>;  // Blue
+        led-gpios = <&gpio1 13 GPIO_ACTIVE_HIGH>,  // Red (P1.13)
+                    <&gpio1 14 GPIO_ACTIVE_HIGH>,  // Green (P1.14)
+                    <&gpio1 15 GPIO_ACTIVE_HIGH>;  // Blue (P1.15)
         num-leds = <1>;
         color-mapping = <0 1 2>;
     };
