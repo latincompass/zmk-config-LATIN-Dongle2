@@ -13,7 +13,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: LATIN
     name: LATIN_Single
-    cmake-args: -DCONFIG_ZMK_SPLIT=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=n -DCONFIG_RGBLED_WIDGET=n
 
   # Factory reset helper
   - board: seeeduino_xiao_ble
