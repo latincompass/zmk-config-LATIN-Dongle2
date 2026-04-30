@@ -1,0 +1,66 @@
+layout: {zmk_keyboard: LATIN, layout_name: latin_5x4}
+layers:
+  Base:
+    - BT
+    - BT
+    - F
+    - P
+    - B
+    - {t: "Gui+A", h: hold}
+    - {t: "Alt+R", h: hold}
+    - {t: "NAV", h: hold}
+    - {t: "Sft+T", h: hold}
+    - {t: "SYM", h: hold}
+    - ","
+    - Z
+    - X
+    - C
+    - D
+    - {t: "ESC", h: held}
+    - {t: "SPC", h: held}
+    - {t: "TAB", h: held}
+    - {t: "RET", h: held}
+    - {t: "BSPC", h: held}
+  NAV:
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  SYM:
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos: []
