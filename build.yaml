@@ -1,12 +1,12 @@
 include:
   # USB Dongle (Central) - connects to host via USB, receives from keyboard via BLE
   - board: seeeduino_xiao_ble
-    shield: LATIN_dongle
+    shield: LATIN_dongle rgbled_adapter
     name: LATIN_Dongle
 
   # Keyboard (Peripheral) - wireless, connects to dongle via BLE
   - board: seeeduino_xiao_ble
-    shield: LATIN
+    shield: LATIN rgbled_adapter
     name: LATIN_Split_Peripheral
 
   # Single keyboard mode (wired) - for testing
