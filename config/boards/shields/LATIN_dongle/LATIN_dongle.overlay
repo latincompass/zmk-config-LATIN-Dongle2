@@ -2,15 +2,13 @@
 
 / {
 	chosen {
-		zmk,matrix_transform = &dummy_transform;
+		zmk,kscan = &mock_kscan;
 	};
 
-	dummy_transform: keymap_transform_0 {
-		compatible = "zmk,matrix-transform";
-		columns = <1>;
-		rows = <1>;
-		map = <
-			RC(0,0)
-		>;
+	mock_kscan: kscan_1 {
+		compatible = "zmk,kscan-mock";
+		columns = <0>;
+		rows = <0>;
+		events = <0>;
 	};
 };
